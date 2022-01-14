@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  background-color: #f1f5f8;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.head {
+  color: #102a42;
+  font-size: 2.7rem;
+  text-align: center;
+}
+.line {
+  width: 6rem;
+  height: 0.25rem;
+  background-color: springgreen;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.info {
+  padding: 2rem 2rem;
+  background-color: #fff;
+  justify-self: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.App .info h4 {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  margin-bottom: 0rem;
+}
+
+.App .info span {
+  color: #49a6e9;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+p {
+  color: #617d98;
+  margin-top: 0.7rem;
+  /* user-select: none; */
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.prev-btn,
+.next-btn {
+  color: #8bcbf9;
+  /* cursor: pointer; */
+  transition: all 0.3s;
+}
+
+.prev-btn svg,
+.next-btn svg {
+  cursor: pointer;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  color: #2d87c8;
+}
+
+button {
+  margin-top: 0.5rem;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.3rem 0.5rem;
+  background-color: #ebf7ff;
+  color: #49a6e9;
+  transition: all 0.2s;
+  user-select: none;
+}
+
+button:hover {
+  background-color: #49a6e9;
+  color: rgba(0, 0, 0, 0.8);
+}
